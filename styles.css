@@ -127,8 +127,16 @@ h2 { font-size: 1.9rem; }
   .hero-media { order: -1; display:flex; justify-content:center; }
   .nav-toggle { display: inline-flex; }
   .nav-links {
-    position: absolute; right: 16px; top: 60px; background: var(--surface);
-    border: 1px solid var(--border); padding: 10px; border-radius: 12px; display: none; flex-direction: column;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 16px;
+    top: 60px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 14px;
+    border-radius: 12px;
   }
   .nav-links.show { display: flex; }
 }
